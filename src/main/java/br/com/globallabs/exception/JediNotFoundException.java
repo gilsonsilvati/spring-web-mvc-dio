@@ -1,6 +1,8 @@
-package br.com.globallabs.api.exception;
+package br.com.globallabs.exception;
 
 public class JediNotFoundException extends RuntimeException {
+
+    public JediNotFoundException() { }
 
     public JediNotFoundException(String message) {
         super(message);
